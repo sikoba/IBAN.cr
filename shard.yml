@@ -1,0 +1,10 @@
+name: iban
+version: 1.0.0
+
+targets:
+  iban:
+    main: src/iban.cr
+
+crystal: ">= 0.36.0"
+
+license: MIT
