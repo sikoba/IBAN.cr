@@ -6,11 +6,19 @@ Verifies the validity of [IBAN](https://en.wikipedia.org/wiki/International_Bank
 ### Using this shard
  
 Add to your shard.yml
+
 ```
 dependencies:
   iban:
     github: sikoba/iban.cr
 ```
+
+Then add at the beginning of your .cr
+
+```
+require "iban"
+```
+
 
 ### Check IBAN format (true/false)
 
