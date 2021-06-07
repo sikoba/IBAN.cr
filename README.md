@@ -52,4 +52,4 @@ res = Iban.validate_with_feedback(iban) #=> "IBAN checksum incorrect"
 iban = "  Br150  0000000000  01093 2840814p2   "
 res = Iban.display(iban) #=> "BR15 0000 0000 0000 1093 2840 814P 2"
 ```
-Note that this function does not check of the IBAN format is correct!
+Note that this function does not check if the IBAN format is correct!

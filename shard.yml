@@ -1,6 +1,10 @@
 name: iban
 version: 1.0.0
 
+authors:
+  - Dragan Postolovski <drpostolovski@gmail.com>
+  - Alex Kampa <ak@sikoba.com>
+
 targets:
   iban:
     main: src/iban.cr
